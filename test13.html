@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>IFE 13</title>
+</head>
+<body>
+
+	<label>请输入北京今天空气质量：<input type="text" name="air" id="air"></label>
+	<button name="确认" id="button">确认填写</button>
+
+	<div>您输入的值是：<span id="air-add">尚无录入</span></div>
+
+	<script type="text/javascript">
+		(function (arg) {
+			// body...
+			var node_in=document.getElementById('air'),
+				node_btn=document.getElementById('button'),
+				node_display=document.getElementById('air-add');
+
+				if (node_btn.attachEvent) {
+					node_btn.attachEvent("onclick",click);
+				}else{
+					node_btn.addEventListener("click",click,false);
+				}
+
+				function click(){
+					var val=node_in.value.replace(/^(\s|\u00A0)+|(\s|\u00A0)+$/g,"");
+					if (val.length>0) {
+						node_display.innerHTML=val;
+					}else{
+						alert("Please complete the form");
+					}
+				}
+		})();
+	</script>
+
+</body>
+</html>
