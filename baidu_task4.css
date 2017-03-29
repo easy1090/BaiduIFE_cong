@@ -1,0 +1,32 @@
+*{padding: 0;margin: 0;}
+div.backg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #AB9D9D;
+	width: 400px;
+	height: 200px;
+	left: 50%;
+	margin-left: -200px;
+	top: 50%;
+	margin-top: -100px;
+
+}
+div.circle_left_top{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #E5D71F;
+	border-radius: 0 0 50px 0;
+}
+div.circle_right_bottom{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background-color: #E5D71F;
+	border-radius: 50px 0 0 0;
+}

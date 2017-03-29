@@ -1,0 +1,269 @@
+html, body, div, span,  object, iframe, h1, h2, h3, 
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, img, ins, kbd, q,  samp, 
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    font-size: 100%; 
+    font-family: inherit; 
+    vertical-align: baseline; 
+}
+
+body{
+
+	background-color: #EBE1E1;
+
+}
+div.wrap{
+	padding: 20px;
+	overflow: hidden;
+
+}
+div.header{
+	background-color: #2F3ADE;
+	width: 100%;
+	overflow: hidden;
+}
+div.header img{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+div.header-list{
+	
+	
+	float: right;
+	margin-top: 50px;
+	margin-right: 10px;
+}
+
+div.header .header-list li{
+	display: inline-block;
+
+}
+div.header-list a:link,.header-list a:visited{
+	color: white;
+	text-decoration: none;
+}
+div.header-list a:active{
+	text-decoration: none;
+	color: white;
+
+}
+div.header-list a:hover{
+	text-decoration: none;
+	color: #D120CC;
+}
+
+
+/* 文章主题*/
+div.wrap{
+
+	padding: 20px;
+}
+div.left{
+	float: left;
+	width: 70%;
+	overflow: hidden;
+	padding: 3px;
+}
+div.right-passage{
+	float: right;
+	width: 25%;
+	border: 1px solid black;
+	background-color: white;
+	padding: 20px;
+
+	box-shadow: 3px 3px 3px #837777;
+
+}
+div.left-passage{
+	border: 1px solid black;
+	padding: 20px;
+	background-color: white;
+	margin-bottom: 20px;
+	box-shadow: 3px 3px 3px #837777;
+
+}
+div.left-passage h2,.right-passage h2{
+	text-align: left;
+	font-family: "Microsoft Yahei";
+	font-size: 26px;
+	font-weight: 600;
+	text-indent: 0;
+}
+div.left-passage h3,.right-passage h3{
+	text-align: left;
+	font-family: "Microsoft Yahei";
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #5A4747;
+	text-indent: 0;
+}
+div p.info{
+	text-align: left;
+	font-family: "Microsoft Yahei";
+	line-height: 30px;
+	color: #C2BCBC;
+	font-size: 15px;
+	font-weight: 400;
+	text-indent: 0;
+}
+div.left-passage p{
+	text-align: left;
+	font-family: "Microsoft Yahei";
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: normal;
+	text-indent: 30px;
+}
+div.left-passage ul li{
+	list-style-type: none;
+	text-align: left;
+	font-family: "Microsoft Yahei";
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+	text-indent: 10px;
+}
+div.left-passage div.pic{
+	border: 1px solid #DCDCDC;
+	margin: 20px;
+	width: 100px;
+
+}
+div.left-passage div.firstline div.pic{
+	display: inline-block;
+}
+div.left-passage div.secondline div.pic{
+	display: inline-block;
+}
+div.left-passage div.picture-block img{
+	width: 80px;
+	height: 80px;
+	margin-left: 10px;
+}
+div.left-passage div.firstline p,div.secondline p{
+	text-align: center;
+	font-family: "Microsoft Yahei";
+	font-weight: 400;
+	font-size: 10px;
+	text-indent: 0;
+}
+div.left-passage ol{
+	margin-left: 50px;
+
+}
+div.left-passage ol li{
+	text-align: left;
+	font-family: "Microsoft Yahei";
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+	text-indent: 10px;
+}
+div.left-passage table{
+	border: 1px solid #DCDCDC;
+	width: 100%;
+	border-spacing: 0;
+}
+div.left-passage tr th{
+	background-color: black;
+	border: 1px solid #DCDCDC;
+	color: white;
+	text-align: center;
+}
+div.left-passage tr td{
+	border: 1px solid #DCDCDC;
+	text-align: center;
+}
+div.left-passage tr.tablesum{
+	background-color: #DCDCDC;
+	border: 1px solid #cccccc;
+}
+
+
+/* 右侧侧栏 */
+
+div.right-passage .input-message{
+	width: 30%;
+	text-align: right;
+	margin-right: 20px;	
+	font-family: "Microsoft Yahei";
+	font-size: 10px;
+	font-weight: 400;
+	text-indent: 0px;
+	display: inline-block;
+	vertical-align: top;
+}
+div.right-passage .input-messages{
+	width: 30%;
+	text-align: right;
+	margin-right: 20px;	
+	font-family: "Microsoft Yahei";
+	font-size: 10px;
+	font-weight: 400;
+	text-indent: 0px;
+	display: inline-block;
+}
+div.rigt-passage input{
+	float: left;
+}
+div.right-passage div.inp{
+	margin-bottom: 15px;
+
+}
+#password1{
+	margin-bottom: 10px;
+}
+div.right-passage div.tip p{
+	text-align: center;
+	font-family: "Microsoft Yahei";
+	font-size: 5px;
+	color: #504B4B;
+	font-weight: normal;
+	text-indent: 0;
+	margin-bottom: 10px;
+}
+div.right-passage div.buttonset input[type="submit"]{
+	width: 100%;
+	background: #3519E2;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	color: white;
+	box-shadow: 1px 1px 5px #9C9898;
+	text-shadow: 1px 1px 1px #9e3f3f;
+	cursor: pointer;
+	font-weight: bold;
+}
+div.right-passage div.inp label{
+	font-family: "Microsoft Yahei";
+	font-size: 10px;
+	color: black;
+	font-weight: 400;
+	text-indent: 0;
+	
+}
+
+/*下边栏*/
+div.footer{
+	width: 100%;
+	background-color: #040F8A;
+	height: 50px;
+	padding-top: 10px;
+}
+div.footer p{
+	text-align: center;
+	font-family: "Microsoft Yahei";
+	font-size: 20px;
+	color: white;
+	font-weight: normal;
+
+}

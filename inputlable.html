@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>基础标记的使用</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<form method="post" action="save.php">
+	<fieldset>
+		<legend>用户注册信息</legend>
+		<p>
+			用户名：<input type="text" size="12" maxlength="20" name="username"/>
+			
+		</p>
+		<p>
+			密码：<input type="password" size="12" maxlength="20" name="pass">
+		</p>
+		<p>
+			请选择你的性别：<input type="radio" value="male" checked="checked" />男
+			<input type="radio" value="female" />女
+		</p>
+		<p>
+			请输入你的年龄：<input type="text" name="age" />
+		</p>
+		<p>
+			请输入你的电话：<input type="text" name="tel" />
+		</p>
+		<p>
+			请输入你的邮箱地址：<input type="text" name="address" value="@" />
+		</p>
+		<p>
+			<span>个人主页：</span><input type="text" name="web" />
+		</p>
+		<p>
+			<input type="submit" name="submit" value="确认提交" />
+			<input type="reset" name="reset" value="取消" />
+			<br /><br />个人简介：
+		</p>
+		<textarea rows="10" cols="50">在这里输入内容</textarea>
+		<p>喜好：
+			<input type="checkbox" value="swimming" checked="checked" />游泳
+			<input type="checkbox" value="reading" />读书
+			<input type="checkbox" value="running" />跑步
+		</p>
+		<p>专业：
+			<select multiple="multiple">
+				<option value="electronics">电子</option>
+				<option value="math">数学</option>
+				<option value="chemistry" selected="selected">化学</option>
+				<option value="finance">金融</option>
+			</select>
+			
+		</p>
+		<img src="http://img.mukewang.com/52b4113500018cf102000200.jpg">
+
+	</fieldset>
+</form>
+</body>
+</html>
